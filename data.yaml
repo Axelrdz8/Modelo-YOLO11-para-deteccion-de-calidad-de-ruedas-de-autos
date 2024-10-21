@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Rueda_Buena', 'Rueda_Pinchada']
+
+roboflow:
+  workspace: aaa-cl3qh
+  project: llantas-oztzo
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aaa-cl3qh/llantas-oztzo/dataset/2
